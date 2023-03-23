@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simran gym</title>
+</head>
+<link rel="stylesheet" href="" class="css/style.css">
+<style>
+    body{
+        margin: 0px ;
+        padding: 0px;
+        background: url('img/gym\ photo.webp');
+        color: white;
+    }
+    .left{
+        display: inline-block;
+       
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+    .center{
+        display: block;
+        width: 500px;
+        margin: 12px auto;
+        color: white;
+       
+        
+
+    }
+    .right{
+        display: inline-block;
+      
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+
+    }
+    .navbar{
+        display: inline-block;
+       
+    }
+    .navbar li{
+        display: inline-block ;
+        color: rgb(185, 22, 22);
+        padding: 8px 10px;
+      
+     
+     
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color:rgb(233, 89, 159);
+    }
+    .left img{
+        width: 100px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 0px 12px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        cursor: pointer;
+       
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+       
+        margin: 100px 100px;
+        padding: 60px 60px;
+        border-radius: 40px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 3px auto;
+        padding: 4px 4px;
+        border: 2px solid black;
+     
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 68px;
+    margin: auto;
+}
+</style>
+<body>
+    <header class="header">
+       <!--left box for logo--> 
+        <div class="left">
+            <img src="img/gym logo.jpg" alt="">
+            <div>
+                simran fitness
+            </div>
+
+        </div>
+        <!--center box for navigation-->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+        <!--right box for button-->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+      <h1>Welcome to the Fitness Club</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+            <input type=" text" name=""placeholder="enter your name">
+        </div>
+        <div class="form-group">
+            <input type=" text" name=""placeholder="enter your age">
+        </div>
+        <div class="form-group">
+            <input type=" text" name=""placeholder="enter your gender">
+        </div>
+        <div class="form-group">
+           <input type=" text" name=""placeholder="enter your locality">
+        </div>
+       <button class="btn">submit</button>
+      </form>
+     
+         
+    </div>
+    
+</body>
+</html> 
